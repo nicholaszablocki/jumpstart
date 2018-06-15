@@ -1,4 +1,16 @@
-.container-fluid{
+.my-header{
   display:flex;
   justify-content: space-between;
+  align-items: center;
+}.navbar-default .navbar-nav > .active > a{
+  color:skyblue;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar-header img {
+        display: none;
+    }
+}
+.jumbotron{
+  background-image: url("./resources/images/jumbotron-bike.jpg");
 }
