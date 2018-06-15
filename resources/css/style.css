@@ -15,6 +15,9 @@ html{
     .navbar-header img {
         display: none;
     }
+    h1{
+      font-size:5.7rem;
+    }
 }
 .jumbotron{
   background-image: url("../images/jumbotron-bike.jpg");
@@ -65,14 +68,15 @@ h1{
   padding-bottom:0.8rem;
 }
 #allprojects{
-  margin-left:3rem;
-  margin-right:3rem;
+  margin-left:5%;
+  margin-right:5%;
 }
 ul{
   list-style-type:none;
 }
 .image-container img{
   opacity: 0.7;
+  width:auto;
 }
 footer{
   display:flex;
@@ -90,4 +94,8 @@ footer strong{
 }
 footer span{
   width:42rem;
+  text-align: center;
+}
+footer .btn p{
+  font-size:1.5rem;
 }
