@@ -19,13 +19,24 @@ html{
       font-size:5.7rem;
     }
 }
-.jumbotron {
-  background-image: url("../images/jumbotron-bike.jpg");
+.jumbotron{
   background-size: cover;
   height: 100%;
   color:white;
   text-align: center;
   font-size: 1.5rem;
+}
+.jumbotron-bike {
+  background-image: url("../images/jumbotron-bike.jpg");
+}
+.jumbotron-beer {
+  background-image: url("../images/jumbotron-beer.jpg");
+}
+.jumbotron-duffel {
+  background-image: url("../images/jumbotron-duffel.jpg");
+}
+.jumbotron-flowers {
+  background-image: url("../images/jumbotron-flowers.jpg");
 }
 .jumbotron > span{
   width:51.3rem;
